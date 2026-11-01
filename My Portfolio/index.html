@@ -1,1 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BAZIE - Creative developer and digital explorer. Computer Science and Entrepreneurship student at the Burkina Institute of Technology.">
+    <title>BAZIE | Creative Digital Universe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header>
+    <a href="#home" class="logo" aria-label="BAZIE, back to top"><span>B</span> BAZIE.</a>
+
+    <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="talk">Let's Talk ↗</a>
+</header>
+
+<main id="main">
+
+<section class="hero" id="home">
+    <div class="hero-text">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>BAZIE<span>.</span></h1>
+        <h2>Creative Developer &amp; Digital Explorer</h2>
+        <p>Turning ideas into digital experiences.</p>
+
+        <a href="#projects" class="button">Explore My Universe →</a>
+
+        <div class="socials">
+            <a href="#contact" aria-label="GitHub">GH</a>
+            <a href="#contact" aria-label="LinkedIn">IN</a>
+            <a href="#contact" aria-label="Instagram">IG</a>
+        </div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+        <div class="orbit"></div>
+        <div class="orb"><span>B</span></div>
+        <div class="floating-card">
+            <small>CREATIVE MODE</small>
+            <h3>ON <span>●</span></h3>
+        </div>
+        <div class="floating-code">&lt;/&gt; Design × Code</div>
+        <div class="spark">✦</div>
+    </div>
+</section>
+
+<section class="about section" id="about">
+    <p class="label">01 / ABOUT ME</p>
+
+    <div class="about-grid">
+        <h2>Beyond the<br><span>Screen.</span></h2>
+
+        <div>
+            <p>
+                I'm Bazie, a Computer Science and Entrepreneurship student
+                at the Burkina Institute of Technology. Passionate about web
+                development, design and innovation, I love turning my ideas
+                into creative digital experiences.
+            </p>
+
+            <p>
+                My goal is to keep learning, experiment with new ideas and
+                build interfaces that are useful, elegant and intuitive.
+            </p>
+
+            <a href="#skills" class="text-link">Discover my skills ↗</a>
+        </div>
+    </div>
+
+    <div class="facts">
+        <div><span>01</span><h3>Curiosity</h3><p>Always learning</p></div>
+        <div><span>02</span><h3>Creativity</h3><p>Ideas without limits</p></div>
+        <div><span>03</span><h3>Progress</h3><p>Growing every day</p></div>
+    </div>
+</section>
+
+<section class="projects section" id="projects">
+    <p class="label">02 / MY PROJECTS</p>
+
+    <div class="section-title">
+        <h2>Ideas Into<br><span>Reality.</span></h2>
+        <p>A selection of web design and development explorations.</p>
+    </div>
+
+    <div class="project-grid">
+
+        <article class="project-card nova">
+            <div class="project-image">
+                <span class="project-tag">01 — DIGITAL STUDIO</span>
+                <h3>NOVA<span>®</span></h3>
+                <p>Creative digital experiences</p>
+            </div>
+            <div class="project-info">
+                <h3>NOVA — Creative Studio</h3>
+                <p>Landing page · Design · CSS</p>
+                <div class="tags"><span>HTML</span><span>CSS</span></div>
+            </div>
+        </article>
+
+        <article class="project-card formly">
+            <div class="project-image">
+                <span class="project-tag">02 — INTERACTIVE UI</span>
+                <div class="form-preview">
+                    <small>CREATE ACCOUNT</small>
+                    <h3>Start your<br>next chapter.</h3>
+                    <div class="fake-input">Email address</div>
+                    <div class="fake-input">Password ********</div>
+                    <div class="fake-button">Create account →</div>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3>Formly — Smart Forms</h3>
+                <p>Interactive forms</p>
+                <div class="tags"><span>HTML</span><span>CSS</span></div>
+            </div>
+        </article>
+
+        <article class="project-card motion">
+            <div class="project-image">
+                <span class="project-tag">03 — CSS EXPERIMENT</span>
+                <div class="ribbon"></div>
+                <h3>MOVE<br>WITH PURPOSE.</h3>
+            </div>
+            <div class="project-info">
+                <h3>Motion Lab</h3>
+                <p>Animations · Transitions · Hover</p>
+                <div class="tags"><span>HTML</span><span>CSS</span></div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<section class="gallery section" id="gallery">
+    <p class="label">03 / GALLERY</p>
+
+    <div class="section-title">
+        <h2>Moments &amp;<br><span>Memories.</span></h2>
+        <p>A glimpse of my world beyond the code: people, places and moments that inspire me.</p>
+    </div>
+
+    <!-- To add a photo: put the file in the "images" folder and keep the same name,
+         or copy a <figure> block and change src, alt and the caption. -->
+    <div class="gallery-grid">
+        <figure class="photo photo-wide">
+            <img src="images/photo-1.jpg" alt="Photo 1 - describe it here" loading="lazy">
+            <figcaption>Photo 1 — add a caption</figcaption>
+        </figure>
+        <figure class="photo">
+            <img src="images/photo-2.jpg" alt="Photo 2 - describe it here" loading="lazy">
+            <figcaption>Photo 2 — add a caption</figcaption>
+        </figure>
+        <figure class="photo">
+            <img src="images/photo-3.jpg" alt="Photo 3 - describe it here" loading="lazy">
+            <figcaption>Photo 3 — add a caption</figcaption>
+        </figure>
+        <figure class="photo">
+            <img src="images/photo-4.jpg" alt="Photo 4 - describe it here" loading="lazy">
+            <figcaption>Photo 4 — add a caption</figcaption>
+        </figure>
+        <figure class="photo photo-wide">
+            <img src="images/photo-5.jpg" alt="Photo 5 - describe it here" loading="lazy">
+            <figcaption>Photo 5 — add a caption</figcaption>
+        </figure>
+    </div>
+</section>
+
+<section class="skills section" id="skills">
+    <p class="label">04 / MY SKILLS</p>
+
+    <div class="skills-grid">
+        <div>
+            <h2>What I Can<br><span>Create.</span></h2>
+            <p>
+                I'm building my skills in crafting modern interfaces
+                and responsive web design.
+            </p>
+        </div>
+
+        <div class="skill-list">
+            <div class="skill">
+                <div class="skill-icon">&lt;/&gt;</div>
+                <div><h3>HTML5</h3><p>Structure &amp; accessibility</p></div>
+                <span>01</span>
+            </div>
+
+            <div class="skill">
+                <div class="skill-icon">✳</div>
+                <div><h3>CSS3</h3><p>Design &amp; animations</p></div>
+                <span>02</span>
+            </div>
+
+            <div class="skill">
+                <div class="skill-icon">✦</div>
+                <div><h3>UI Design</h3><p>Composition &amp; creativity</p></div>
+                <span>03</span>
+            </div>
+
+            <div class="skill">
+                <div class="skill-icon">↗</div>
+                <div><h3>GitHub</h3><p>Project management</p></div>
+                <span>04</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact section" id="contact">
+    <p class="label">05 / GET IN TOUCH</p>
+
+    <div class="contact-box">
+        <h2>Have an idea?<br><span>Let's make it real.</span></h2>
+        <p>Got an idea or a project? Let's talk about it together.</p>
+
+        <a href="mailto:gracepelagiebazie@gmail.com" class="button">Contact Me ↗</a>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <a href="#home" class="logo" aria-label="BAZIE, back to top"><span>B</span> BAZIE.</a>
+    <p>Designed with curiosity. Built with CSS.</p>
+    <p>© 2026 BAZIE</p>
+</footer>
+
+</body>
+</html>
